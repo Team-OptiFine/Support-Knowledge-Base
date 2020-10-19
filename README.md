@@ -82,6 +82,6 @@
     
 ### Refunds
     If you have anyone that is wanting to refund their capes or has anything related to PaymentWall, dont redirect them to sp.
-    Instead redirect them to [PaymentWall's support](https://www.paymentwall.com/en/contacts).
+    Instead redirect them to [PaymentWall's support](https://www.paymentwall.com/en/contacts)
     Note: PayPal or Bank Chargeback can block you.
 
