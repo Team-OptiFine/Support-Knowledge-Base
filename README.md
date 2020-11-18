@@ -67,6 +67,9 @@
 ### File Permissions
     If there is a file permission error try deleting the OptiFine Version from the libraries folder `C:\Users\<user>\AppData\Roaming\.minecraft\libraries\optifine\OptiFine\<version>`
     
+### Modded
+    Disable TipTheScales, the mod should auto do this but just incase it might be good to remove it. Add `0` to AstralSorcery.cfg (`rootfolder/config/astralsorcery.cfg`), under weakSkyRenders option, this will make it only render constellations on top of the existing sky render (ie shaders or optifine).
+    
 
 ## Common Questions
 
