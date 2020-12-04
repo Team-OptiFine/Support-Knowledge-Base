@@ -16,6 +16,9 @@
     Ubuntu/Ubuntu Based Distros: Have them go to the properties of the .jar and enable "Allow Executing"
 
     Arch/Arch Based: `chmod +x optifine-jar-file.jar`
+
+### New Launcher
+    Go to the "Installations" tab, and click the "Modded" checkbox in the top right
     
 ### OptiFine wont work on Badlion/Other PVP Clients
     We do not provide any support for pvp clients, before saying this: Have them try in a *Vanilla* instance of OptiFine, if issue persists, continue.
