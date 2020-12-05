@@ -56,6 +56,7 @@
     Check Both Settings (Skin Customization > Cape: ON & Video Settings > Details > Show Capes: ON)
     Check that the cape is assigned to their [Account](https://optifine.net/login)
     Clear Browser Cookies - Check if Anti-Virus is blocking OptiFine - Check if ISP is blocking OptiFine
+    Check that they can connect to the cape server, send the link in a fashion that Discord does not provide a preview image, such as "\`http://s.optifine.net/capes/sp614x.png\`". If they can not, procee to Cape Server Blocked under Obscure Problems.
 
 
 
@@ -72,6 +73,17 @@
     
 ### Modded
     Disable TipTheScales, the mod should auto do this but just incase it might be good to remove it. Add `0` to AstralSorcery.cfg (`rootfolder/config/astralsorcery.cfg`), under weakSkyRenders option, this will make it only render constellations on top of the existing sky render (ie shaders or optifine).
+    
+### Cape Server Blocked
+    In short, have the user open `C:\Windows\System32\drivers\etc\hosts`, if a line contains `s.optifine.net` is there, then we need to delete it.
+    - Open Notepad with Administrator (Search "Notepad" in your Windows Search Bar, right click on it and press Run as Administrator. Accept the prompt that comes up.
+    - Press File -> Open
+    - In the bottom right corner of the file window, change ``Text Documents (*.txt)`` to ``All Files (*.*)``
+    - Navigate to ``C:\Windows\System32\drivers\etc``
+    - Double click on hosts
+    - Delete the entire line that contains ``s.optifine.net``
+    - Press Control + S to save.
+    - Close Notepad and restart your computer.
     
 
 ## Common Questions
