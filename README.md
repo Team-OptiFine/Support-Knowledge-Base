@@ -7,7 +7,7 @@
 
 ### Cape Not Showing Ingame
     Check Both Settings (Skin Customization > Cape: ON & Video Settings > Details > Show Capes: ON)
-    Check that the cape is assigned to their [Account](https://optifine.net/login)
+    Check that the cape is assigned to their Account
     Clear Browser Cookies - Check if Anti-Virus is blocking OptiFine - Check if ISP is blocking OptiFine
     Check that they can connect to the cape server, send the link in a fashion that Discord does not provide a preview image, such as "`http://s.optifine.net/capes/sp614x.png`". If they can not, proceed to Cape Server Blocked under Obscure Problems.
 
@@ -32,8 +32,8 @@
 ## Common File Issues
 
 ### OptiFine opening with something *other* than Java
-    Download [Java](https://java.com) or [AdoptOpenJDK](https://adoptopenjdk.net/)
-    - If there is still an error Download [JarFix](https://johann.loefflmann.net/en/software/jarfix/index.html)
+    Download Java (https://java.com) or AdoptOpenJDK (https://adoptopenjdk.net/)
+    - If there is still an error Download JarFix (https://johann.loefflmann.net/en/software/jarfix/index.html)
 
 ### Linux
     Ubuntu/Ubuntu Based: Have them go to the properties of the .jar and enable "Allow Executing"
