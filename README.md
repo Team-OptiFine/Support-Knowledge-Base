@@ -55,6 +55,12 @@
 ### Change Email
     If its within 30 days, see Refund section, and donate with correct email.
     Otherwise its a lost cause, see if they can create the email they typed in.
+    
+### Data Deletion Requests/GDPR Requests
+    If the request is not via email, tell them to send an email from the email that is attached to the account they'd like to remove.
+    First, check that the user has an actual account by searching the email in the Database. If one comes up, proceed. If one doesn't, tell the user. We can ONLY process requests sent in from the actual email.
+    Then, send a confirmation email that will be found as a canned response under "Data Deletion Confirmation" and replacing the filler content with their email.
+    Once they agree, DM sp614x with the email and a link to the ticket.
 
 ### Minecraft/OptiFine running on iGPU not dGPU
     Open dGPU Control Panel (AMD Adrenaline or NVidia Control Panel (NOT GeForce Experience))
