@@ -77,3 +77,9 @@
     - Select NVidia Processor in drop down -> Click Apply
         
     Note: IF they have Minecraft running under a different version of java, it will be located in `C:\Program Files\AdoptOpenJDK\<java version>\bin` or `C:\Program Files\Java\<java version>\bin` and must be javaw.exe
+
+### White lines/Lines around blocks
+    > **1.)** Close Minecraft and any other games, open Nvidia Control Panel (right click on the desktop then click Nvidia Control Panel)
+    > **2.)** Click `Adjust image settings with preview`
+    > **3.)** Click `Let the 3D application decide` then click `Apply` in the bottom right 
+    The lines should no longer show up around blocks. 
