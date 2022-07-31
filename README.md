@@ -53,8 +53,7 @@
     Note: PayPal or Bank Chargeback can block you.
 
 ### Change Email
-    If its within 30 days, see Refund section, and donate with correct email.
-    Otherwise its a lost cause, see if they can create the email they typed in.
+    In order to process an email change request, the request must come from the original email, and list a replacement email. A confirmation must be made listing both emails (this is provided via a canned response under "Email Change Request"). Once confirmation is received, DM sp614x with the emails and the relevant ticket. Note: Users on the original email have 30 days to reverse the change. If the user does not have access to the original email/the email attached to the cape, then a change is not available.
     
 ### Data Deletion Requests/GDPR Requests
     If the request is not via email, tell them to send an email from the email that is attached to the account they'd like to remove.
