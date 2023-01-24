@@ -1,0 +1,98 @@
+{
+  "cape": {
+    "name": "Cape",
+    "description": "Any issues related to capes",
+    "type": "modal",
+    "modal": [
+      {
+        "id": "username",
+        "label": "Your minecraft username",
+        "placeholder": "steve",
+        "required": true,
+        "maxLength": 16
+      },
+      {
+        "id": "email",
+        "label": "Your accounts email address",
+        "placeholder": "email@address.com",
+        "maxLength": 256,
+        "minLength": 3
+      },
+      {
+        "id": "message",
+        "label": "Please explain your issue:",
+        "placeholder": "My issue is...",
+        "long": true,
+        "required": true,
+        "minLength": 32
+      }
+    ]
+  },
+  "changeEmail": {
+    "name": "Change email address",
+    "description": "You want to change your email address for your cape",
+    "type": "error",
+    "message": "Unfortunately, it is not currently possible to change the email address attached to your donator account. Emails cannot be changed due to security reasons, and because there is no functional way to actually change them.\n\nIf you clearly misspelt the domain name of your email when making the donation (`@gmial.com` instead of `@gmail.com`), we can manually fix that for you as it is an invalid email, but that is the only exception."
+  },
+  "fixEmail": {
+    "name": "Spelt email incorrectly",
+    "description": "You made a mistake and spelt your email wrong when donating",
+    "type": "modal",
+    "modal": [
+      {
+        "id": "username",
+        "label": "Your minecraft username",
+        "placeholder": "steve",
+        "required": true,
+        "maxLength": 16
+      },
+      {
+        "id": "email",
+        "label": "Your accounts email address",
+        "placeholder": "email@address.com",
+        "required": true,
+        "maxLength": 256,
+        "minLength": 3
+      },
+      {
+        "id": "message",
+        "label": "Any other information?",
+        "placeholder": "...",
+        "long": true
+      }
+    ]
+  },
+  "payment": {
+    "name": "Payment",
+    "description": "Any issues related to payment issues",
+    "type": "error",
+    "message": "Unfortunately, we are unable to help with payment issues. Only Paymentwall can provide support for payment related issues. You can contact them at `support@paymentwall.com`"
+  },
+  "rp": {
+    "name": "Resource Packs",
+    "description": "Any issues related to resource packs",
+    "type": "error",
+    "message": "The support tickets are not for resource pack related issues. Please go to <#425702172219408385> for anything resource pack related."
+  },
+  "other": {
+    "name": "Other",
+    "description": "Any other issues",
+    "type": "modal",
+    "modal": [
+      {
+        "id": "username",
+        "label": "Your minecraft username",
+        "placeholder": "steve",
+        "maxLength": 16
+      },
+      {
+        "id": "message",
+        "label": "Please explain your issue:",
+        "placeholder": "My issue is...",
+        "long": true,
+        "required": true,
+        "minLength": 32
+      }
+    ]
+  }
+}
