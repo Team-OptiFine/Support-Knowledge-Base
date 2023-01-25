@@ -32,6 +32,7 @@
     "name": "Change email address",
     "description": "You want to change your email address for your cape",
     "type": "error",
+    "title": "How to change your email address",
     "message": "To change your email address, please email **optifinex@gmail.com** from the original donation email mentioning that you want to change your email address. After that you will be asked to confirm the change.\nOnce the email is changed you will have 30 days to undo it. From then on it is permanently changed.\n\nIf you no longer have access to your donator email, please open a ticket using the \"Other\" category and provide a proof of purchase such as a PayPal Transaction ID.\n\nIf you have no email access or proof of purchace then unfortunately your email is stuck and nothing can be done."
   },
   "fixEmail": {
@@ -66,6 +67,7 @@
     "name": "Payment",
     "description": "Any issues related to payment issues",
     "type": "error",
+    "title": "Unable to provide support",
     "message": "Unfortunately, we are unable to help with payment issues. Only Paymentwall can provide support for payment related issues. You can contact them at `support@paymentwall.com`"
   },
   "rp": {
