@@ -74,6 +74,7 @@
     "name": "Resource Packs",
     "description": "Any issues related to resource packs",
     "type": "error",
+    "title": "Unable to provide support",
     "message": "The support tickets are not for resource pack related issues. Please go to <#425702172219408385> for anything resource pack related."
   },
   "other": {
