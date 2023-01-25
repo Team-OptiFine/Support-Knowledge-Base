@@ -13,7 +13,7 @@
       },
       {
         "id": "email",
-        "label": "Your accounts email address",
+        "label": "Your donation email address",
         "placeholder": "email@address.com",
         "maxLength": 256,
         "minLength": 3
@@ -49,7 +49,7 @@
       },
       {
         "id": "email",
-        "label": "Your accounts email address",
+        "label": "Your donation email address",
         "placeholder": "email@address.com",
         "required": true,
         "maxLength": 256,
