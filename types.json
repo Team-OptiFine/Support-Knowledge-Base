@@ -1,33 +1,4 @@
 {
-  "cape": {
-    "name": "Cape",
-    "description": "Any issues related to capes",
-    "type": "modal",
-    "modal": [
-      {
-        "id": "username",
-        "label": "Your minecraft username",
-        "placeholder": "steve",
-        "required": true,
-        "maxLength": 16
-      },
-      {
-        "id": "email",
-        "label": "Your donation email address",
-        "placeholder": "email@address.com",
-        "maxLength": 256,
-        "minLength": 3
-      },
-      {
-        "id": "message",
-        "label": "Please explain your issue:",
-        "placeholder": "My issue is…",
-        "long": true,
-        "required": true,
-        "minLength": 32
-      }
-    ]
-  },
   "changeEmail": {
     "name": "Change email address",
     "description": "You want to change your email address for your cape",
@@ -70,6 +41,42 @@
       }
     ]
   },
+  "nickChange": {
+    "name": "Cape disappeared after username change",
+    "description": "Your cape has disappeared after changing my username",
+    "type": "error",
+    "title": "Why has your cape disappeared after you changed your username?",
+    "message": "This is completely normal. Capes are based on your account username. After you change your name, it can take up to 24 hours for OptiFine to automatically move your cape over to your new username\n\nIf it has been longer than 24 hours and it still is not showing, you can try logging into [optifine.net](https://optifine.net/login) and moving your cape manually.\nIf your capt is still not showing, please open a ticket using the `Cape` category"
+  },
+  "cape": {
+    "name": "Cape",
+    "description": "Any other issues related to capes",
+    "type": "modal",
+    "modal": [
+      {
+        "id": "username",
+        "label": "Your minecraft username",
+        "placeholder": "steve",
+        "required": true,
+        "maxLength": 16
+      },
+      {
+        "id": "email",
+        "label": "Your donation email address",
+        "placeholder": "email@address.com",
+        "maxLength": 256,
+        "minLength": 3
+      },
+      {
+        "id": "message",
+        "label": "Please explain your issue:",
+        "placeholder": "My issue is…",
+        "long": true,
+        "required": true,
+        "minLength": 32
+      }
+    ]
+  },
   "payment": {
     "name": "Payment",
     "description": "Any issues related to payment issues",
@@ -86,24 +93,17 @@
   },
   "ticketClose": {
     "name": "My ticket was closed!",
-    "description": "My ticket was mistakenly closed",
+    "description": "Your ticket was mistakenly closed",
     "type": "error",
     "title": "What to do if your ticket was falsely closed",
     "message": "If a support ticket is inactive for a while, it will get automatically closed by Discord. If this occurs you can reopen the ticket by clicking the **#** symbol at the top of this channel, finding the ticket, and then sending a message in it.\n\nIf your ticket was closed by a support member because it cannot be resolved, do not reopen your ticket."
   },
   "install": {
     "name": "Installing OptiFine",
-    "description": "I am unable to install OptiFine",
+    "description": "You am unable to install OptiFine",
     "type": "error",
     "title": "How to install OptiFine",
     "message": "**Installing for Windows**\nTo install OptiFine on Windows, please check [this FAQ entry](https://discord.com/channels/423430686880301056/531622141393764352/857742531558768650)\n\n**Installing for MacOS**\nTo install OptiFine on MacOS, please check [this FAQ entry](https://discord.com/channels/423430686880301056/531622141393764352/869650598272831508)\n\nPlease make sure to read (and follow) all the steps from the FAQs. If you are still having issues installing OptiFine, please open a ticket using the `Other` category"
-  },
-  "nickChange": {
-    "name": "Cape disappeared after username change",
-    "description": "My cape has disappeared after changing my Minecraft username",
-    "type": "error",
-    "title": "Why has your cape disappeared after you changed your username?",
-    "message": "This is completely normal. Capes are based on your account username. After you change your name, it can take up to 24 hours for OptiFine to automatically move your cape over to your new username\n\nIf it has been longer than 24 hours and it still is not showing, you can try logging into [optifine.net](https://optifine.net/login) and moving your cape manually.\nIf your capt is still not showing, please open a ticket using the `Other` category"
   },
   "other": {
     "name": "Other",
