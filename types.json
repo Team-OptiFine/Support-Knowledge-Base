@@ -100,7 +100,7 @@
   },
   "install": {
     "name": "Installing OptiFine",
-    "description": "You am unable to install OptiFine",
+    "description": "You are unable to install OptiFine",
     "type": "error",
     "title": "How to install OptiFine",
     "message": "**Installing for Windows**\nTo install OptiFine on Windows, please check [this FAQ entry](https://discord.com/channels/423430686880301056/531622141393764352/857742531558768650)\n\n**Installing for MacOS**\nTo install OptiFine on MacOS, please check [this FAQ entry](https://discord.com/channels/423430686880301056/531622141393764352/869650598272831508)\n\nPlease make sure to read (and follow) all the steps from the FAQs. If you are still having issues installing OptiFine, please open a ticket using the `Other` category"
