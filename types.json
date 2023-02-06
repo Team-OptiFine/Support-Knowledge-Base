@@ -21,7 +21,7 @@
       {
         "id": "message",
         "label": "Please explain your issue:",
-        "placeholder": "My issue is...",
+        "placeholder": "My issue is…",
         "long": true,
         "required": true,
         "minLength": 32
@@ -33,7 +33,7 @@
     "description": "You want to change your email address for your cape",
     "type": "error",
     "title": "How to change your email address",
-    "message": "To change your email address, please email **optifinex@gmail.com** from the original donation email mentioning that you want to change your email address. After that you will be asked to confirm the change.\nOnce the email is changed you will have 30 days to undo it. From then on it is permanently changed.\n\nIf you no longer have access to your donator email, please open a ticket using the \"Other\" category and provide a proof of purchase such as a PayPal Transaction ID.\n\nIf you have no email access or proof of purchace then unfortunately your email is stuck and nothing can be done."
+    "message": "To change your email address, please email **optifinex@gmail.com** from the original donation email mentioning that you want to change your email address. After that you will be asked to confirm the change.\nOnce the email is changed you will have 30 days to undo it. From then on it is permanently changed.\n\nIf you no longer have access to your donator email, please open a ticket using the `Other` category and provide a proof of purchase such as a PayPal Transaction ID.\n\nIf you have no email access or proof of purchace then unfortunately your email is stuck and nothing can be done."
   },
   "fixEmail": {
     "name": "Spelt email incorrectly",
@@ -49,16 +49,23 @@
       },
       {
         "id": "email",
-        "label": "Your donation email address",
+        "label": "Your correctly spelt donation email address",
         "placeholder": "email@address.com",
         "required": true,
         "maxLength": 256,
         "minLength": 3
       },
       {
+        "id": "email",
+        "label": "The misspelt email address (if known)",
+        "placeholder": "email@addres.co",
+        "maxLength": 256,
+        "minLength": 3
+      },
+      {
         "id": "message",
         "label": "Any other information?",
-        "placeholder": "...",
+        "placeholder": "…",
         "long": true
       }
     ]
@@ -77,6 +84,27 @@
     "title": "Unable to provide support",
     "message": "The support tickets are not for resource pack related issues. Please go to <#425702172219408385> for anything resource pack related."
   },
+  "ticketClose": {
+    "name": "My ticket was closed!",
+    "description": "My ticket was mistakenly closed",
+    "type": "error",
+    "title": "What to do if your ticket was falsely closed",
+    "message": "If a support ticket is inactive for a while, it will get automatically closed by Discord. If this occurs you can reopen the ticket by clicking the **#** symbol at the top of this channel, finding the ticket, and then sending a message in it.\n\nIf your ticket was closed by a support member because it cannot be resolved, do not reopen your ticket."
+  },
+  "install": {
+    "name": "Installing OptiFine",
+    "description": "I am unable to install OptiFine",
+    "type": "error",
+    "title": "How to install OptiFine",
+    "message": "**Installing for Windows**\nTo install OptiFine on Windows, please check [this FAQ entry](https://discord.com/channels/423430686880301056/531622141393764352/857742531558768650)\n\n**Installing for MacOS**\nTo install OptiFine on MacOS, please check [this FAQ entry](https://discord.com/channels/423430686880301056/531622141393764352/869650598272831508)\n\nPlease make sure to read (and follow) all the steps from the FAQs. If you are still having issues installing OptiFine, please open a ticket using the `Other` category"
+  },
+  "nickChange": {
+    "name": "Cape disappeared after username change",
+    "description": "My cape has disappeared after changing my Minecraft username",
+    "type": "error",
+    "title": "Why has your cape disappeared after you changed your username?",
+    "message": "This is completely normal. Capes are based on your account username. After you change your name, it can take up to 24 hours for OptiFine to automatically move your cape over to your new username\n\nIf it has been longer than 24 hours and it still is not showing, you can try logging into [optifine.net](https://optifine.net/login) and moving your cape manually.\nIf your capt is still not showing, please open a ticket using the `Other` category"
+  },
   "other": {
     "name": "Other",
     "description": "Any other issues",
@@ -91,7 +119,7 @@
       {
         "id": "message",
         "label": "Please explain your issue:",
-        "placeholder": "My issue is...",
+        "placeholder": "My issue is…",
         "long": true,
         "required": true,
         "minLength": 32
