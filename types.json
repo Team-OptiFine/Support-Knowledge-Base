@@ -46,7 +46,7 @@
     "description": "Your cape has disappeared after changing my username",
     "type": "error",
     "title": "Why has your cape disappeared after you changed your username?",
-    "message": "This is completely normal. Capes are based on your account username. After you change your name, it can take up to 24 hours for OptiFine to automatically move your cape over to your new username\n\nIf it has been longer than 24 hours and it still is not showing, you can try logging into [optifine.net](https://optifine.net/login) and moving your cape manually.\nIf your capt is still not showing, please open a ticket using the `Cape` category"
+    "message": "This is completely normal. Capes are based on your account username. After you change your name, it can take up to 24 hours for OptiFine to automatically move your cape over to your new username\n\nIf it has been longer than 24 hours and it still is not showing, you can try logging into [optifine.net](https://optifine.net/login) and moving your cape manually.\nIf your cape is still not showing, please open a ticket using the `Cape` category"
   },
   "cape": {
     "name": "Cape",
