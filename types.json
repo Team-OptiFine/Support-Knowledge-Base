@@ -50,10 +50,10 @@
   },
   "thirdPartyClient": {
     "name": "Cape issues while using 3rd Party Client",
-    "description": "You have a problem with your cape while using Badlion, LunarClient, etc",
+    "description": "You have a problem with your cape while using Badlion, Lunar Client, etc",
     "type": "error",
     "title": "Third party clients are not supported",
-    "message": "We cannot help you with problems while using 3rd party clients. Please check if the issue also occurs in the official Minecraft Launcher. If it does not, please go to the relevant clients support team.\n\nIf you are using Badlion and your cape is not updating texture, this is a known issue with Badlion and you just need to wait. Badlion is slow at updating capes."
+    "message": "We cannot help you with problems while using 3rd party clients. Please check if the issue also occurs in the official Minecraft Launcher. If it does not, please go to the relevant clients support team.\n\nIf you are using Badlion and your cape texture is not updating, you just need to wait. This is a known issue with Badlion and it is just slow at updating capes."
   },
   "cape": {
     "name": "Cape",
