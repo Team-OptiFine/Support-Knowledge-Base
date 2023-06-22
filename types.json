@@ -112,6 +112,21 @@
     "title": "How to install OptiFine",
     "message": "**Installing for Windows**\nTo install OptiFine on Windows, please check [this FAQ entry](https://discord.com/channels/423430686880301056/531622141393764352/857742531558768650)\n\n**Installing for MacOS**\nTo install OptiFine on MacOS, please check [this FAQ entry](https://discord.com/channels/423430686880301056/531622141393764352/869650598272831508)\n\nPlease make sure to read (and follow) all the steps from the FAQs. If you are still having issues installing OptiFine, please open a ticket using the `Other` category"
   },
+  "moderator": {
+    "name": "Contact the moderators",
+    "description": "You wish to contact the server moderators",
+    "type": "modal",
+    "modal": [
+      {
+        "id": "message",
+        "label": "Your message",
+        "placeholder": "My issue is…",
+        "long": true,
+        "required": true,
+        "minLength": 32
+      }
+    ]
+  },
   "other": {
     "name": "Other",
     "description": "Any other issues",
