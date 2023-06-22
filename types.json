@@ -117,7 +117,7 @@
     "description": "You wish to contact the server moderators",
     "type": "error",
     "title": "How do I contact the server moderators?",
-    "message": "Support tickets are not for moderation related stuff. Please either send a DM to a moderator, or trigger a `!modping` in the relevant channel."
+    "message": "Support tickets are not for moderation related stuff. For now, please either send a DM to a moderator, or trigger a `!modping` in the relevant channel. Moderator support will be coming to support tickets soon."
   },
   "other": {
     "name": "Other",
