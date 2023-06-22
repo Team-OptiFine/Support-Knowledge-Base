@@ -115,17 +115,9 @@
   "moderator": {
     "name": "Contact the moderators",
     "description": "You wish to contact the server moderators",
-    "type": "modal",
-    "modal": [
-      {
-        "id": "message",
-        "label": "Your message",
-        "placeholder": "My issue is…",
-        "long": true,
-        "required": true,
-        "minLength": 32
-      }
-    ]
+    "type": "error",
+    "title": "How do I contact the server moderators?",
+    "message": "Support tickets are not for moderation related stuff. Please either send a DM to a moderator, or trigger a `!modping` in the relevant channel."
   },
   "other": {
     "name": "Other",
