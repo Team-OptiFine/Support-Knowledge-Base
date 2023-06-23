@@ -43,7 +43,7 @@
   },
   "nickChange": {
     "name": "Cape disappeared after username change",
-    "description": "Your cape has disappeared after changing my username",
+    "description": "Your cape has disappeared after changing your username",
     "type": "error",
     "title": "Why has your cape disappeared after you changed your username?",
     "message": "This is completely normal. Capes are based on your account username. After you change your name, it can take up to 24 hours for OptiFine to automatically move your cape over to your new username\n\nIf it has been longer than 24 hours and it still is not showing, you can try logging into [optifine.net](https://optifine.net/login) and moving your cape manually.\nIf your cape is still not showing, please open a ticket using the `Cape` category"
@@ -117,7 +117,7 @@
     "description": "You wish to contact the server moderators",
     "type": "error",
     "title": "How do I contact the server moderators?",
-    "message": "Support tickets are not for moderation related stuff. For now, please either send a DM to a moderator, or trigger a `!modping` in the relevant channel. Moderator support will be coming to support tickets soon."
+    "message": "Support tickets are not currently for moderation related stuff. For now, please either send a DM to a moderator, or trigger a `!modping` in the relevant channel. Moderator support will be coming to support tickets soon."
   },
   "other": {
     "name": "Other",
