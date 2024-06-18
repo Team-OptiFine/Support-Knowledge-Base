@@ -48,6 +48,13 @@
     "title": "Why has your cape disappeared after you changed your username?",
     "message": "This is completely normal. Capes are based on your account username. After you change your name, it can take up to 24 hours for OptiFine to automatically move your cape over to your new username\n\nIf it has been longer than 24 hours and it still is not showing, you can try logging into [optifine.net](https://optifine.net/login) and moving your cape manually.\nIf your cape is still not showing, please open a ticket using the `Cape` category"
   },
+  "badlionCaching": {
+    "name": "Badlion Client my cape is not updating",
+    "description": "I changed my cape design but it is not updating in game",
+    "type": "error",
+    "title": "Badlion Client caches cape designs",
+    "message": "Like the name suggests, Badlion Client is bad, and it takes ages for your cape design to update. There is nothing you can do, there is nothing we can do, you will just have to wait.\n\nFor some reason, Badlion Client caches OptiFine capes, which means they take ages for it to update. If you want your cape design to update faster, complain to the Badlion Client team about it."
+  },
   "thirdPartyClient": {
     "name": "Cape issues while using 3rd Party Client",
     "description": "You have a problem with your cape while using Badlion, Lunar Client, etc",
