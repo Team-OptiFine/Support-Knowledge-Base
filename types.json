@@ -4,7 +4,7 @@
     "description": "You want to change your email address for your cape",
     "type": "error",
     "title": "How to change your email address",
-    "message": "**__Temporarily, all new email change requests will be denied. We apologize for the inconvenience.__**\n\nPlease try again later (possibly in a couple of months)."
+    "message": "**__Temporarily, all new email change requests will be denied. We apologize for the inconvenience.__**"
   },
   "fixEmail": {
     "name": "Spelt email incorrectly",
